@@ -1,0 +1,10 @@
+server:
+  port: 8083
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh
+booking:
+  hold-minutes: 15
+  max-quantity-per-order: 6
